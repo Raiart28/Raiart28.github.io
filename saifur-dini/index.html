@@ -1,23 +1,61 @@
 <!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    
-    <body>
-        <div class="max-w-[22.50rem] mx-auto bg-white">
-            <img class="block" src="./assets/Bukaundangan.png" />
-            <img class="block" src="./assets/SD.png" />
-            <img class="block" src="./assets/Kalimat.png" />
-            <img class="block" src="./assets/Bungatengahbawah.png" />
-            <img class="block" src="./assets/Bungatengahatas.png" />
-            <img class="block" src="./assets/Bungakanan.png" />
-            <img class="block" src="./assets/Bungakiri.png" />
-            <img class="block" src="./assets/Background.png" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <style>
+        .background {
+            background-image: url('./assets/Background.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .invitation {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 320px;
+        }
+        .invitation img {
+            max-width: 100%;
+            height: auto;
+        }
+        .invitation h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .invitation p {
+            margin-bottom: 10px;
+            font-family: 'Georgia', serif;
+        }
+        .btn {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="invitation">
+            <img src="./assets/Bungakiri.png" alt="Dekorasi Atas">
+            <h1>SD</h1>
+            <p>Saifur & Dini</p>
+            <p>Kpd Bpk/Ibu/Saudara/i</p>
+            <p>Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Berhadir Di Acara Pernikahan Kami.</p>
+            <a href="#" class="btn">Buka Undangan</a>
+            <p>Mohon maaf apabila ada kesalahan penulisan nama/gelar</p>
+            <img src="./assets/Bungakanan.png" alt="Dekorasi Bawah">
         </div>
-    </body>
-
+    </div>
+</body>
 </html>
